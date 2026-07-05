@@ -1,50 +1,60 @@
-# [PROJECT_NAME] Constitution
-<!-- Example: Spec Constitution, TaskFlow Constitution, etc. -->
+<!--
+Sync Impact Report:
+- Version change: 0.0.0 → 1.0.0
+- Modified principles:
+  - [PRINCIPLE_1_NAME] → I. Clean Code
+  - [PRINCIPLE_2_NAME] → II. Simple UX
+  - [PRINCIPLE_3_NAME] → III. Responsive Design (Mobile-First)
+  - [PRINCIPLE_4_NAME] → IV. Minimal Dependencies
+  - [PRINCIPLE_5_NAME] → V. No Testing (NON-NEGOTIABLE)
+- Added sections:
+  - Technology Stack
+- Removed sections:
+  - [SECTION_2_NAME]
+  - [SECTION_3_NAME]
+- Templates requiring updates:
+  - ✅ updated .specify/memory/constitution.md
+  - ⚠ pending .specify/templates/plan-template.md
+  - ⚠ pending .specify/templates/spec-template.md
+  - ⚠ pending .specify/templates/tasks-template.md
+- Follow-up TODOs: None
+-->
+
+# Legimus Web Constitution
 
 ## Core Principles
 
-### [PRINCIPLE_1_NAME]
-<!-- Example: I. Library-First -->
-[PRINCIPLE_1_DESCRIPTION]
-<!-- Example: Every feature starts as a standalone library; Libraries must be self-contained, independently testable, documented; Clear purpose required - no organizational-only libraries -->
+### I. Clean Code
 
-### [PRINCIPLE_2_NAME]
-<!-- Example: II. CLI Interface -->
-[PRINCIPLE_2_DESCRIPTION]
-<!-- Example: Every library exposes functionality via CLI; Text in/out protocol: stdin/args → stdout, errors → stderr; Support JSON + human-readable formats -->
+Code should be well-structured, readable, and maintainable. Follow standard coding practices and a consistent style.
 
-### [PRINCIPLE_3_NAME]
-<!-- Example: III. Test-First (NON-NEGOTIABLE) -->
-[PRINCIPLE_3_DESCRIPTION]
-<!-- Example: TDD mandatory: Tests written → User approved → Tests fail → Then implement; Red-Green-Refactor cycle strictly enforced -->
+### II. Simple UX
 
-### [PRINCIPLE_4_NAME]
-<!-- Example: IV. Integration Testing -->
-[PRINCIPLE_4_DESCRIPTION]
-<!-- Example: Focus areas requiring integration tests: New library contract tests, Contract changes, Inter-service communication, Shared schemas -->
+The user experience should be intuitive and straightforward. Avoid unnecessary complexity in the UI.
 
-### [PRINCIPLE_5_NAME]
-<!-- Example: V. Observability, VI. Versioning & Breaking Changes, VII. Simplicity -->
-[PRINCIPLE_5_DESCRIPTION]
-<!-- Example: Text I/O ensures debuggability; Structured logging required; Or: MAJOR.MINOR.BUILD format; Or: Start simple, YAGNI principles -->
+### III. Responsive Design (Mobile-First)
 
-## [SECTION_2_NAME]
-<!-- Example: Additional Constraints, Security Requirements, Performance Standards, etc. -->
+The application must be fully responsive, with a design process that prioritizes the mobile experience first, then scales up to larger screens.
 
-[SECTION_2_CONTENT]
-<!-- Example: Technology stack requirements, compliance standards, deployment policies, etc. -->
+### IV. Minimal Dependencies
 
-## [SECTION_3_NAME]
-<!-- Example: Development Workflow, Review Process, Quality Gates, etc. -->
+Keep the number of external libraries and dependencies to a minimum to reduce bundle size and maintenance overhead.
 
-[SECTION_3_CONTENT]
-<!-- Example: Code review requirements, testing gates, deployment approval process, etc. -->
+### V. No Testing (NON-NEGOTIABLE)
+
+No unit tests, integration tests, or end-to-end tests will be written for this project. This is a non-negotiable principle and supersedes any other guidance.
+
+## Technology Stack
+
+The project will use the following technologies:
+
+- **Vite**: ^8.1.1
+- **React**: ^19.2.7
 
 ## Governance
-<!-- Example: Constitution supersedes all other practices; Amendments require documentation, approval, migration plan -->
 
-[GOVERNANCE_RULES]
-<!-- Example: All PRs/reviews must verify compliance; Complexity must be justified; Use [GUIDANCE_FILE] for runtime development guidance -->
+This Constitution is the single source of truth for project principles and practices. All development work, code reviews, and architectural decisions must adhere to it.
 
-**Version**: [CONSTITUTION_VERSION] | **Ratified**: [RATIFICATION_DATE] | **Last Amended**: [LAST_AMENDED_DATE]
-<!-- Example: Version: 2.1.1 | Ratified: 2025-06-13 | Last Amended: 2025-07-16 -->
+Amendments to this constitution require a documented proposal and team consensus.
+
+**Version**: 1.0.0 | **Ratified**: 2026-07-05 | **Last Amended**: 2026-07-05
